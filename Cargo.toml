@@ -18,12 +18,10 @@ subprocess = "0.2"
 
 bollard = "0.11" # docker
 
-contract = { path = "contract" }
-
-jsonrpc-core = { version = "18.0.0", path = "../../core" }
-jsonrpc-pubsub = { version = "18.0.0", path = "../" }
-jsonrpc-ws-server = { version = "18.0.0", path = "../../ws" }
-jsonrpc-ipc-server = { version = "18.0.0", path = "../../ipc" }
+jsonrpc-core = { version = "18.0.0" }
+jsonrpc-pubsub = { version = "18.0.0" }
+jsonrpc-ws-server = { version = "18.0.0" }
+jsonrpc-ipc-server = { version = "18.0.0" }
 
 reqwest = "*"
 
